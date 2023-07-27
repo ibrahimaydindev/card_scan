@@ -38,10 +38,10 @@ publishing {
     publications {
         create<MavenPublication>("android") {
             groupId = "com.texinsight"
-            artifactId = "newky_scanner"
+            artifactId = "newky_scanner-debug"
             version = "1.0"
 
-            artifact("newky_scanner-1.0.aar") {
+            artifact("newky_scanner-debug.aar") {
                 extension = "aar"
             }
 
